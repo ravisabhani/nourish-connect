@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Cabin:ital,wght@0,400..700;1,400..700&family=Calistoga&family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Convergence&family=Inter:wght@100..900&family=Lalezar&family=Roboto+Slab:wght@100..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Salsa&family=Sora:wght@100..800&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+/*  ---  home style ---  */
+
+.title-chart{
+    font-size:20px;
+    font-weight:600;
+    font-family: "Rokkitt", serif;
+}
+
+.title-chart h7{
+    font-size:16px;
+    color:#656565;
+    font-weight:400;
+}
+
+.title-chart-2 span{
+    font-size:27px;
+    font-weight:600;
+    font-family: "Rokkitt", serif;
+}
+
+.title-chart-2 h7{
+    font-size:16px;
+    color:#656565;
+    font-weight:400;
+    font-family: "Rokkitt", serif;
+}
+
+.title-btn button{
+    width:167px;
+    font-size:14px;
+    padding:4px;
+    background-color:#1a1e36;
+    color:white;
+    border-radius:6px;
+    border:none;
+}
+
+.chart-btn button{
+    width:65px;
+    border:none;
+    font-size:14px;
+    font-family: "Rokkitt", serif;
+    border-radius:4px;
+}
+
+.chart-total-overview{
+    width:100%;
+    height:209px;
+}
+
+.home-chart-dough{
+    width:100%;
+    height:177px;
+}
+
+
+.status-circle-1,.status-circle-2,.status-circle-3,.status-circle-4{ 
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background-color:#1AB194;
+}
+
+.status-circle-2{
+    background-color:#E53F3A;
+}
+
+.status-circle-3{
+    background-color:#DEBB1F;
+}
+
+.status-circle-4{
+    background-color:#18B6EC;
+}
+
+.chart-pie{
+    width:100%;
+    height:214px;
+}
+
+.donor-row img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.donor-row h7{
+    font-size:18px;
+    font-weight:500;
+}
+
+.donor-row span{
+    color:rgba(79, 78, 78, 1);
+}
+
+.donor-row:hover{
+    background-color:rgba(79, 78, 78, 0.33);
+}
+
+.donor-row{
+    background-color:rgba(175, 175, 175, 0.19);
+    padding:5px 0px;
+    border-radius:5px;
+    font-family: "Rokkitt", serif;
+    cursor:pointer;
+}
+
+
+
+/* user style */
+
+.add-user-title h5{
+    font-family: "Rokkitt", serif;
+    font-weight:600;
+    font-size:27px;
+}
+
+.add-user-title h6{
+    font-family: "Rokkitt", serif;
+    font-weight:500;
+    color:rgb(45 45 45);
+    font-size:18px;
+}
+
+.add_user{
+    background-color:#1a1e36;
+    width:49px;
+    height:49px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    color:white;
+    cursor:pointer;
+}
+
+.host_box img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+th{
+    font-family: "Roboto Slab", serif;
+}
+
+td{
+    font-family: "Inter", sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width:22px;
+    cursor:pointer;
+}
+
+.dropdown .dropbtn {
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    right:-30px;
+    border-radius:12px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius:12px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.category-list:hover{
+    background:#f7f7f7;
+}
+
+.category-list i{
+    cursor:pointer;
+}
+
+.list-box{
+    height:400px;
+    overflow-y:scroll;
+}
+
+.add-btn-c{
+    width:75px;
+    height:28px;
+    border:2px solid #1a1e36;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:5px;
+    background:white;
+    font-size:15px;
+}
+
+.add-btn{
+    width:60px;
+    height:28px;
+    border:2px solid #1a1e36;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:5px;
+    background:#1a1e36;
+    font-size:15px;
+    color:white;
+}
+
+.input-box-add{
+    width:100%;
+    /* height:44px; */
+    border-radius:14px;
+    border:2px dashed rgba(153, 153, 153, 0.33);
+    background-color:#fefefe;
+    outline:none;
+    padding:12px;
+}
+
+.item-food-image{
+    width:161px;
+    height:131px;
+}
+
+.item-food-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:22px;
+}
+
+.status-btn{
+    width:15px;
+    height:15px;
+    border-radius:50%;
+}
+
+

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
+
+:root {
+      --btn-fir: #95CBC8; 
+      --btn-sec: #F4C4AE; 
+      --btn-acc: white;
+}
+
+.navbars{
+      background-color:rgba(0, 0, 0, 0.54) !important;
+      color: white;
+      padding: 17px;
+      z-index:3;
+      width:100%;
+      height:72px;
+      top:32px;
+      border-radius:55px;
+      backdrop-filter: blur(9px);
+}
+
+.nav-link{
+      color:white !important;
+}
+
+.nav-brand{
+      color:white !important;
+      font-family: "Convergence", sans-serif;
+      font-size:27px;
+      letter-spacing:2px;
+      margin-left:15px !important;
+}
+
+#btn{
+      width:auto;
+      height:33px;
+      text-decoration:none;
+      color:black !important;
+      font-weight:500;
+      border-radius:45px;
+      padding:22px 29px;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      border:none;
+      font-family: "Convergence", sans-serif;
+}
+
+.btn-fir {
+      background-color: var(--btn-fir);
+}
+
+.btn-sec {
+      background-color: var(--btn-sec);
+}
+
+.btn-acc{
+      background-color: var(--btn-acc);
+}
+
+.btn-acc:hover{
+      box-shadow: inset 0 0 104px 5px rgba(0, 0, 0, 0.5); 
+}
+
+@media (max-width: 767px) {
+      .navbars{
+            border-radius: 10px;
+            top:12px;
+      }
+
+      .navbar-collapse{
+            background-color:rgba(0, 0, 0, 0.97) !important;
+            padding:40px 40px 40px 40px;
+            margin-top:40%;
+            border-radius:22px;
+      }
+      
+      .signin{
+            width:112px !important;
+      }
+      
+      .signup{
+            width:115px !important;
+      }
+}
+
+.btn-donate{
+      width:111px;
+      border:none;
+      outline:none;
+      border-radius:34px;
+      background-color:#1a1e36;
+      color:white;
+      height:32px;
+}
+
+.btn-accept{
+      width:91px;
+      height:32px;
+      border:2px solid #1a1e36;
+      outline:none;
+      border-radius:34px;
+      color:#1a1e36;
+      background-color:transparent;
+}
